@@ -1,3 +1,16 @@
+        /*
+         * Queries Minecraft server
+         * Returns array on success, false on failure.
+         *
+         * WARNING: This is using an old "ping" feature, only use this to ping servers prior to 1.7 version.
+         *
+         * Written by xPaw
+         * Added 1.6 support by chillecharlie
+         *
+         * Website: http://xpaw.ru
+         * GitHub: https://github.com/xPaw/PHP-Minecraft-Query
+         */
+         
 function QueryMinecraft_Read_VarInt( $Socket )
 {
 	$i = 0;
